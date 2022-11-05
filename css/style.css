@@ -1,0 +1,198 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("static/theater-image-background.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+}
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#monthyear {
+    border-color: black;
+    border-style: solid;
+    background-color: silver;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+.grid-img {
+    margin-right:20px;
+    width: 200px;
+    height: 180px;
+}
+
+.showdetails{ 
+    margin-right: 10px;
+    padding-top: 0px;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+button {
+    margin-top: 75px;
+    margin-right: 10px;
+    padding: 5px;
+    height: 30px;
+    background-color: orange;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.footerbar {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footercontacts {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    justify-content: space-around;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    justify-content: space-around;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    justify-content: space-around;
+}
+
+.footheader {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
